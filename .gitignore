@@ -1,5 +1,6 @@
 # example data dir
 test/
+test2/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

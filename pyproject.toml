@@ -9,4 +9,5 @@ dependencies = [
     "orjson>=3.11.7",
     "pillow>=12.1.1",
     "pydantic>=2.12.5",
+    "rectangle-packer>=2.0.6",
 ]

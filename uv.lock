@@ -366,6 +366,22 @@ wheels = [
 ]
 
 [[package]]
+name = "rectangle-packer"
+version = "2.0.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ef/35/1f7fac58e4b904111ccd556869fb18a467014267f7b1daf1c82681cc6450/rectangle_packer-2.0.6.tar.gz", hash = "sha256:1ad5b1edc35e933d1655b2d8e2d345cb2f81a2df135298c8601f74d3dce8d6e9", size = 27803, upload-time = "2026-02-14T21:52:17.991Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e5/5c/c694d994e4d2df03c2d5f8911a05ea0b577d39d3191fb116e1ef3011fa79/rectangle_packer-2.0.6-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:7e7cae0ec95c09a17474096e6f423a4dbb6918693604cfd970192b290fb6a669", size = 62910, upload-time = "2026-02-14T21:52:08.003Z" },
+    { url = "https://files.pythonhosted.org/packages/58/32/6a32fc223d16ef6695489086f5c8accd5ec573ce561f305318151509082b/rectangle_packer-2.0.6-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:7ef04d8e3d0c8f6b0fbb049133b1eff9ded0e697ae03d13cf8842bd038102b65", size = 58162, upload-time = "2026-02-14T21:52:09.002Z" },
+    { url = "https://files.pythonhosted.org/packages/18/30/782fce9dc7451a26ba209becb89f354fa2e0c8e1aaf1ab6c1154600218b6/rectangle_packer-2.0.6-cp314-cp314-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:f8d17a0a9841ff32e874e11c579e67288ec0886aaa57a4654e185d70330066bf", size = 333681, upload-time = "2026-02-14T21:52:09.99Z" },
+    { url = "https://files.pythonhosted.org/packages/a0/ca/aad486ab747803f5bd94ed528ea464d0971fb929d1cc9745b968f5552dfd/rectangle_packer-2.0.6-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:1cad154a1454f9e79c4d8ad298eed12132db4bbd75b0f6f9becc54396f4deb65", size = 332096, upload-time = "2026-02-14T21:52:11.811Z" },
+    { url = "https://files.pythonhosted.org/packages/86/35/a8735ab830bca1f272dfeb5c38a05f5828732f1bd24027b83b33b3d6a8d8/rectangle_packer-2.0.6-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:a0238d561d28552ab5fc0d279ad38d974a1530d7137da504402a2c7e3ef06c3e", size = 326885, upload-time = "2026-02-14T21:52:13.564Z" },
+    { url = "https://files.pythonhosted.org/packages/49/82/b7ba674ae3a3e1275a016cd467872942451b488ac0f9537e0cf196f706f8/rectangle_packer-2.0.6-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:cfe1fd239004d49fb336161d474febd673cec0c6fddcf119c7365f986a4e6ba5", size = 332599, upload-time = "2026-02-14T21:52:14.828Z" },
+    { url = "https://files.pythonhosted.org/packages/53/e7/bfd7750052114af46650c2e5d03035044c6829cb2b0cf5455472d0787436/rectangle_packer-2.0.6-cp314-cp314-win32.whl", hash = "sha256:1efdddfa96cd9505c92da360ed781f6e9f85b4a940305119d8f8f134e9035bf0", size = 51982, upload-time = "2026-02-14T21:52:15.947Z" },
+    { url = "https://files.pythonhosted.org/packages/d1/45/c3f0b666084cccb78dd7dba5489bc3113379454b827b3c3e7d9de6cdc2c3/rectangle_packer-2.0.6-cp314-cp314-win_amd64.whl", hash = "sha256:0066142ea3b7dc719085eb07bd5f0dbd4f30306ce7f53505b85e747d040debae", size = 58074, upload-time = "2026-02-14T21:52:16.934Z" },
+]
+
+[[package]]
 name = "scipy"
 version = "1.17.1"
 source = { registry = "https://pypi.org/simple" }
@@ -414,6 +430,7 @@ dependencies = [
     { name = "orjson" },
     { name = "pillow" },
     { name = "pydantic" },
+    { name = "rectangle-packer" },
 ]
 
 [package.metadata]
@@ -422,6 +439,7 @@ requires-dist = [
     { name = "orjson", specifier = ">=3.11.7" },
     { name = "pillow", specifier = ">=12.1.1" },
     { name = "pydantic", specifier = ">=2.12.5" },
+    { name = "rectangle-packer", specifier = ">=2.0.6" },
 ]
 
 [[package]]
